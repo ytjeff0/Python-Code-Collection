@@ -1,0 +1,15 @@
+import turtle as t
+t.hideturtle()
+t.speed(10)
+def a(x,y,r,c):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+    t.pensize(10)
+    t.pencolor(c)
+    t.circle(r)
+a(-110,0,50,"blue")
+a(0,0,50,"black")
+a(110,0,50,"red")
+a(-55,-50,50,"yellow")
+a(55,-50,50,"green")
